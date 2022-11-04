@@ -1,0 +1,85 @@
+version: '3.9'
+
+networks:
+  app_subnet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.30.10.0/24
+
+services:
+
+  redis-cluster:
+      image: 'redis'
+      command: redis-cli --cluster create 172.30.10.11:6379 172.30.10.12:6379 172.30.10.13:6379 172.30.10.14:6379 172.30.10.15:6379 172.30.10.16:6379 --cluster-replicas 1 --cluster-yes
+      networks:
+        app_subnet:
+          ipv4_address: 172.30.10.10
+      depends_on:
+        - node-1
+        - node-2
+        - node-3
+        - node-4
+        - node-5
+        - node-6
+
+  node-1:
+      image: 'redis'
+      command: redis-server /usr/local/etc/redis/redis.conf
+      volumes:
+        - d:\redis_cluster\redis-cluster.conf:/usr/local/etc/redis/redis.conf
+      ports:
+        - '6371:6379'
+      networks:
+        app_subnet:
+          ipv4_address: 172.30.10.11
+  node-2:
+      image: 'redis'
+      command: redis-server /usr/local/etc/redis/redis.conf
+      volumes:
+        - d:\redis_cluster\redis-cluster.conf:/usr/local/etc/redis/redis.conf
+      ports:
+        - '6372:6379'
+      networks:
+        app_subnet:
+          ipv4_address: 172.30.10.12
+  node-3:
+      image: 'redis'
+      command: redis-server /usr/local/etc/redis/redis.conf
+      volumes:
+        - d:\redis_cluster\redis-cluster.conf:/usr/local/etc/redis/redis.conf
+      ports:
+        - '6373:6379'
+      networks:
+        app_subnet:
+          ipv4_address: 172.30.10.13
+  node-4:
+      image: 'redis'
+      command: redis-server /usr/local/etc/redis/redis.conf
+      volumes:
+        - d:\redis_cluster\redis-cluster.conf:/usr/local/etc/redis/redis.conf
+      ports:
+        - '6374:6379'
+      networks:
+        app_subnet:
+          ipv4_address: 172.30.10.14
+  node-5:
+      image: 'redis'
+      command: redis-server /usr/local/etc/redis/redis.conf
+      volumes:
+        - d:\redis_cluster\redis-cluster.conf:/usr/local/etc/redis/redis.conf
+      ports:
+        - '6375:6379'
+      networks:
+        app_subnet:
+          ipv4_address: 172.30.10.15
+  node-6:
+      image: 'redis'
+      command: redis-server /usr/local/etc/redis/redis.conf
+      volumes:
+        - d:\redis_cluster\redis-cluster.conf:/usr/local/etc/redis/redis.conf
+      ports:
+        - '6376:6379'
+      networks:
+        app_subnet:
+          ipv4_address: 172.30.10.16

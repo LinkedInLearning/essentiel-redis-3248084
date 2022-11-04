@@ -1,0 +1,1 @@
+print('Voici la valeur de hash d\'une clé:', hash('Redis:user:1'))

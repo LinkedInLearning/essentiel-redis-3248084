@@ -1,0 +1,4 @@
+SET tempo "coucou" EX 100
+TTL tempo
+EXPIRE tempo 100
+TTL tempo

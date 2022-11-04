@@ -1,0 +1,15 @@
+XADD temperature * Lieu Limoges temperature 16.5
+XADD temperature * Lieu Limoges temperature 16.6
+XADD temperature * Lieu Limoges temperature 16.7
+
+TIME
+
+XLEN temperature
+
+XRANGE temperature - +
+XRANGE temperature - + COUNT 2
+
+XRANGE temperature 1666946628264 + COUNT 2
+XRANGE temperature (1666946628264 + COUNT 2
+
+XREAD COUNT 2 STREAMS temperature 0

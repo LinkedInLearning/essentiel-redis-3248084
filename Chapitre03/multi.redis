@@ -1,0 +1,17 @@
+MULTI
+SET cle:1 oui
+SET cle:2 oui
+SET cle:3 oui
+EXEC 
+
+DEL cle:1 cle:2 cle:3
+
+SET important oui
+
+WATCH important
+
+MULTI
+SET cle:1 oui
+SET cle:2 oui
+SET cle:3 oui
+EXEC 

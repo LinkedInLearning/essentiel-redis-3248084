@@ -1,0 +1,11 @@
+SADD abonne:001:qualites optimiste grand beau gentil sincere serieux intelligent
+SADD abonne:002:qualites pessimiste petit chevelu gentil discret serieux rigolo
+
+SINTER abonne:001:qualites abonne:002:qualites
+SDIFF abonne:001:qualites abonne:002:qualites
+SISMEMBER abonne:001:qualites grand
+SREM abonne:002:qualites chevelu
+SMEMBERS abonne:002:qualites
+
+DEL abonne:001:qualites 
+DEL abonne:002:qualites

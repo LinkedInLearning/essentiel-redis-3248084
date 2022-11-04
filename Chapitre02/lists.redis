@@ -1,0 +1,13 @@
+# Natsume Sôseki, 1867-1907
+
+RPUSH haiku:soseki:01 "Sans savoir pourquoi" "J'aime ce monde" "Où nous venons pour mourir."
+LLEN haiku:soseki:01
+LINDEX haiku:soseki:01 2
+
+LPOP haiku:soseki:01
+LLEN haiku:soseki:01
+LPUSH haiku:soseki:01 "Sans savoir pourquoi"
+LRANGE haiku:soseki:01 0 2
+RPOP haiku:soseki:01
+
+DEL haiku:soseki:01

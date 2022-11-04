@@ -1,0 +1,6 @@
+ZADD gagnants 100 Marissa 98 Mamadou 76 Amar 87 Sophie
+ZRANK gagnants Sophie
+ZRANGE gagnants 0 10
+
+ZREVRANGE gagnants 0 10
+ZREVRANK gagnants Sophie

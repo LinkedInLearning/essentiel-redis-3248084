@@ -1,0 +1,14 @@
+SET cle:01 "une chanson douce"
+GET cle:01
+
+GETDEL cle:01
+
+SET cle:01 "une chanson douce"
+STRLEN cle:01
+SUBSTR cle:01 4 10
+
+SET cle:02 "la meilleure chanson du monde"
+LCS cle:01 cle:02 LEN
+
+EXPIRE cle:01 1
+DEL cle:02

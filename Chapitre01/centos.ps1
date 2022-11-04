@@ -1,0 +1,1 @@
+docker run --name centos_redis -it centos /bin/bash

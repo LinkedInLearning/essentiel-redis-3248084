@@ -1,26 +1,20 @@
-# Nom final de la formation
+# L'Essentiel de Redis
 
-Ce dossier Repository est lié au cours `Nom final de la formation`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+Ce dossier Repository est lié au cours `L'Essentiel de Redis`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
-![Nom final de la formation][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
+![L'Essentiel de Redis][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
 
 DESCRIPTION DE LA FORMATION
 
 ## Instructions
 
-Ce dossier Repository a des branches pour chacune des vidéos du cours. Vous pouvez utiliser le menu des Branches sur GitHub afin d’accéder aux passages qui vous intéressent. Vous pouvez également rajouter `/tree/BRANCH_NAME` à l’URL afin d’accéder à la branche qui vous intéresse. 
-
-## Branches
-
-Les branches sont structurées de manière à correspondre aux vidéos du cours. La convention de nommage est : `CHAPITRE#_VIDEO#`. Par exemple, la branche nommée`02_03` correspond au second chapitre, et à la troisième vidéo de ce chapitre. Certaines branches ont un état de départ et de fin.  
-La branche `02_03_d` correspond au code du début de la vidéo.  
-La branche `02_03_f` correspond au code à la fin de la vidéo.  
-La branche master correspond au code à la fin de la formation. 
+Ce dossier Repository a des dossiers pour chacun des chapitres du cours où du code source a été utilisé.
 
 ## Installation
 
 1. Pour utiliser ces fichiers d’exercice, vous avez besoin de : 
-   - [Liste des logiciels/dépendances utiles à la formation] 
+   - [Docker](https://www.docker.com/products/docker-desktop/)
+   - [Visual Studio Code](https://code.visualstudio.com/download)
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
 3. [Instructions spécifiques au cours] 
 

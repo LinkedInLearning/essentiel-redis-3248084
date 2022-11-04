@@ -1,0 +1,8 @@
+JSON.SET article01_json . ' { "auteur": {     "prénom":"Annie",     "nom":"Brizard",     "e-mail":"annie.brizard@cocomail.com" }, "titre":"pourquoi les éléphants ont-ils de grandes oreilles ?", "mots-clés": [     "faune",     "afrique",     "questions intriguantes" ], "catégories": [     "sciences",     "éducation",     "nature" ], "date_création": "12/05/2012 23:30", "statut":"publié", "nombre_de_lectures":"54" }'
+
+keys *
+type "article01_json"
+
+JSON.GET "article01_json"
+JSON.OBJKEYS "article01_json"
+JSON.GET "article01_json" auteur

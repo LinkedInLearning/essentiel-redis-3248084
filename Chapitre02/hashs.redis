@@ -1,0 +1,11 @@
+HMSET user:01 nom Achab prenom Ismaël profession marin
+TYPE user:01
+
+HEXISTS user:01 profession
+HDEL user:01 profession
+HGETALL user:01
+HSET user:01 profession marin
+HGET user:01 nom
+HKEYS user:01
+HLEN user:01
+HMGET user:01 nom prenom
