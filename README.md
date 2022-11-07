@@ -16,14 +16,13 @@ Ce dossier Repository a des dossiers pour chacun des chapitres du cours où du c
    - [Docker](https://www.docker.com/products/docker-desktop/)
    - [Visual Studio Code](https://code.visualstudio.com/download)
 2. Clonez ce dossier Repository sur votre machine locale (Mac), CMD (Windows), ou sur un outil GUI tel que SourceTree. 
-3. [Instructions spécifiques au cours] 
 
 
 ### Formateur
 
-**Nom du formateur** 
+**Rudi Bruchez** 
 
- Retrouvez mes autres formations sur [LinkedIn Learning][lil-URL-trainer].
+ Retrouvez mes autres formations sur [LinkedIn Learning](https://www.linkedin.com/learning/instructors/rudi-bruchez).
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
