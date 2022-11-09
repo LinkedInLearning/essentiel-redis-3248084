@@ -1,8 +1,8 @@
-# L'Essentiel de Redis
+# L'essentiel de Redis
 
-Ce dossier Repository est lié au cours `L'Essentiel de Redis`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+Ce dossier Repository est lié au cours `L'essentiel de Redis`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
-![L'Essentiel de Redis][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
+![L'essentiel de Redis][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
 
 DESCRIPTION DE LA FORMATION
 
