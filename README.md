@@ -2,9 +2,9 @@
 
 Ce dossier Repository est lié au cours `L'essentiel de Redis`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
-![L'essentiel de Redis][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
+![L'essentiel de Redis][lil-thumbnail-url]
 
-DESCRIPTION DE LA FORMATION
+En tant que programmeur, vous manipulez des structures de données à longueur de journée comme des chaînes, des listes ou des sets. Facilitez vos manipulations en faisant persister ces structures sur un serveur partagé et hyper rapide tel que Redis. Dans ce cours, Rudi Bruchez, expert indépendant dans le domaine, vous fait découvrir le moteur de base de données NoSQL en mémoire qui vous permet de travailler avec un espace de paires clés-valeurs. Vous allez voir comment mettre en place Redis, utiliser des types de données simples et profiter des hautes performances des différents modules.
 
 ## Instructions
 
@@ -26,7 +26,7 @@ Ce dossier Repository a des dossiers pour chacun des chapitres du cours où du c
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/C4E0DAQGhGNZ8Cz_CBA/learning-public-crop_675_1200/0/1673875782254?e=2147483647&v=beta&t=QtOqFyFZs6-lbg5SvzM4Z2GJTKFrQnPPVJTFVO8uqv0
 [lil-URL-trainer]: https://
 
 [1]: # (End of FR-Instruction ###############################################################################################)
