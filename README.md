@@ -25,7 +25,7 @@ Ce dossier Repository a des dossiers pour chacun des chapitres du cours où du c
  Retrouvez mes autres formations sur [LinkedIn Learning](https://www.linkedin.com/learning/instructors/rudi-bruchez).
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
+[lil-course-url]: https://www.linkedin.com/learning/l-essentiel-de-redis
 [lil-thumbnail-url]: https://media.licdn.com/dms/image/C4E0DAQGhGNZ8Cz_CBA/learning-public-crop_675_1200/0/1673875782254?e=2147483647&v=beta&t=QtOqFyFZs6-lbg5SvzM4Z2GJTKFrQnPPVJTFVO8uqv0
 [lil-URL-trainer]: https://
 
