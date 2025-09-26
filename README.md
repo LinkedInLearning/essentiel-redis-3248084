@@ -6,6 +6,8 @@ Ce dossier Repository est lié au cours `L'essentiel de Redis`. Le cours entier 
 
 En tant que programmeur, vous manipulez des structures de données à longueur de journée comme des chaînes, des listes ou des sets. Facilitez vos manipulations en faisant persister ces structures sur un serveur partagé et hyper rapide tel que Redis. Dans ce cours, Rudi Bruchez, expert indépendant dans le domaine, vous fait découvrir le moteur de base de données NoSQL en mémoire qui vous permet de travailler avec un espace de paires clés-valeurs. Vous allez voir comment mettre en place Redis, utiliser des types de données simples et profiter des hautes performances des différents modules.
 
+La meilleure façon d'apprendre un langage est de l'utiliser dans la pratique. C'est pourquoi ce cours est intégré à GitHub Codespaces, un environnement de développement instantané « dans le nuage » qui offre toutes les fonctionnalités de votre IDE préféré sans nécessiter de configuration sur une machine locale. Avec Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment, tout en utilisant un outil que vous êtes susceptible de rencontrer sur votre lieu de travail. 
+
 ## Instructions
 
 Ce dossier Repository a des dossiers pour chacun des chapitres du cours où du code source a été utilisé.
